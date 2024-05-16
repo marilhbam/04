@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(38, 30, 53);
+}
+.header{
+    display: flex;
+    width: 90vw;
+    color: antiquewhite;
+}
+h2{
+    width: 30%;
+    font-size: 30px;
+}
+p{
+    width: 30%;
+    text-align: right;
+}
+.main input{
+    width: 90vw;
+    height: 90px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(5, 5, 10);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: antiquewhite;
+    font-size: 60px;
+    padding: 10px;
+    text-align: right;
+}
+.main input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+ 
+}
+.main input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+.footer{
+    background-color: rgb(17, 13, 41);
+    border-radius: 10px;
+    padding-top: 1px;
+}
+.linha01,
+.linha02,
+.linha03,
+.linha04{
+    margin: 10px;
+}
+button{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(29, 9, 43);
+}
+.linha05{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.del{
+    background-color: rgb(55, 52, 82);
+    color: white;
+    font-size: 30px;
+}
+.reset{
+    width: 163px;
+    margin-right: 2px;
+    background-color: rgb(57, 54, 80);
+    color: white;
+    font-size: 30px;
+}
+.igual{
+    width: 163px;
+    margin-left: 2px;
+    background-color: rgb(117, 55, 55);
+    color: white;
+}
+@media screen and (min-width: 600px ){
+    .header{
+        width: 30vw;
+    }
+    .main input{
+        width: 30vw;
+    }
+    button{
+        width: 110px;
+    }
+    .reset,
+    .igual{
+        width: 223px;
+    }
+}
